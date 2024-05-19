@@ -1,0 +1,10 @@
+if SHIELD_REVIUNG41
+
+config CONFIG_USB
+    default y
+
+config CONFIG_ZMK_USB
+    default y
+
+config CONFIG_ZMK_USB_BOOT
+    default y
