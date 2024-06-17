@@ -1,0 +1,5 @@
+config SHIELD_REV41_DONGLE
+    def_bool $(shields_list_contains,rev41_dongle)
+
+config SHIELD_REV41_KEB
+    def_bool $(shields_list_contains,rev41_keb)
